@@ -12,6 +12,15 @@
 		756497201E704EBA00497240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7564971E1E704EBA00497240 /* Main.storyboard */; };
 		756497221E704EBA00497240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756497211E704EBA00497240 /* Assets.xcassets */; };
 		756497251E704EBA00497240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756497231E704EBA00497240 /* LaunchScreen.storyboard */; };
+		75DCCAF21E704F79007E199B /* map2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DCCAEE1E704F79007E199B /* map2ViewController.swift */; };
+		75DCCAF31E704F79007E199B /* map3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DCCAEF1E704F79007E199B /* map3ViewController.swift */; };
+		75DCCAF41E704F79007E199B /* map4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DCCAF01E704F79007E199B /* map4ViewController.swift */; };
+		75DCCAF51E704F79007E199B /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DCCAF11E704F79007E199B /* mapViewController.swift */; };
+		75DCCAF71E704FAB007E199B /* Image4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75DCCAF61E704FAB007E199B /* Image4.jpeg */; };
+		75DCCAFB1E704FD0007E199B /* Image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75DCCAF81E704FD0007E199B /* Image1.jpeg */; };
+		75DCCAFC1E704FD0007E199B /* Image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75DCCAF91E704FD0007E199B /* Image2.jpeg */; };
+		75DCCAFD1E704FD0007E199B /* Image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75DCCAFA1E704FD0007E199B /* Image3.jpeg */; };
+		75DCCAFF1E70504A007E199B /* camera icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75DCCAFE1E70504A007E199B /* camera icon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		756497211E704EBA00497240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		756497241E704EBA00497240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		756497261E704EBA00497240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DCCAEE1E704F79007E199B /* map2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = map2ViewController.swift; sourceTree = "<group>"; };
+		75DCCAEF1E704F79007E199B /* map3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = map3ViewController.swift; sourceTree = "<group>"; };
+		75DCCAF01E704F79007E199B /* map4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = map4ViewController.swift; sourceTree = "<group>"; };
+		75DCCAF11E704F79007E199B /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		75DCCAF61E704FAB007E199B /* Image4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image4.jpeg; sourceTree = "<group>"; };
+		75DCCAF81E704FD0007E199B /* Image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image1.jpeg; sourceTree = "<group>"; };
+		75DCCAF91E704FD0007E199B /* Image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image2.jpeg; sourceTree = "<group>"; };
+		75DCCAFA1E704FD0007E199B /* Image3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image3.jpeg; sourceTree = "<group>"; };
+		75DCCAFE1E70504A007E199B /* camera icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "camera icon.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +74,16 @@
 			children = (
 				7564971A1E704EBA00497240 /* AppDelegate.swift */,
 				7564971C1E704EBA00497240 /* ViewController.swift */,
+				75DCCAEE1E704F79007E199B /* map2ViewController.swift */,
+				75DCCAEF1E704F79007E199B /* map3ViewController.swift */,
+				75DCCAF01E704F79007E199B /* map4ViewController.swift */,
+				75DCCAF11E704F79007E199B /* mapViewController.swift */,
 				7564971E1E704EBA00497240 /* Main.storyboard */,
+				75DCCAF81E704FD0007E199B /* Image1.jpeg */,
+				75DCCAF91E704FD0007E199B /* Image2.jpeg */,
+				75DCCAFA1E704FD0007E199B /* Image3.jpeg */,
+				75DCCAF61E704FAB007E199B /* Image4.jpeg */,
+				75DCCAFE1E70504A007E199B /* camera icon.jpg */,
 				756497211E704EBA00497240 /* Assets.xcassets */,
 				756497231E704EBA00497240 /* LaunchScreen.storyboard */,
 				756497261E704EBA00497240 /* Info.plist */,
@@ -124,8 +151,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DCCAFF1E70504A007E199B /* camera icon.jpg in Resources */,
 				756497251E704EBA00497240 /* LaunchScreen.storyboard in Resources */,
 				756497221E704EBA00497240 /* Assets.xcassets in Resources */,
+				75DCCAF71E704FAB007E199B /* Image4.jpeg in Resources */,
+				75DCCAFB1E704FD0007E199B /* Image1.jpeg in Resources */,
+				75DCCAFD1E704FD0007E199B /* Image3.jpeg in Resources */,
+				75DCCAFC1E704FD0007E199B /* Image2.jpeg in Resources */,
 				756497201E704EBA00497240 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7564971D1E704EBA00497240 /* ViewController.swift in Sources */,
+				75DCCAF21E704F79007E199B /* map2ViewController.swift in Sources */,
+				75DCCAF41E704F79007E199B /* map4ViewController.swift in Sources */,
+				75DCCAF51E704F79007E199B /* mapViewController.swift in Sources */,
 				7564971B1E704EBA00497240 /* AppDelegate.swift in Sources */,
+				75DCCAF31E704F79007E199B /* map3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +338,7 @@
 				7564972B1E704EBA00497240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
