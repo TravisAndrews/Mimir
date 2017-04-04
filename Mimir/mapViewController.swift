@@ -1,6 +1,6 @@
 //
 //  mapViewController.swift
-//  Mimir(nav
+//  Mimir
 //
 //  Created by Travis J Andrews on 2/28/17.
 //  Copyright © 2017 IT North. All rights reserved.
@@ -23,7 +23,7 @@ class mapViewController: UIViewController , CLLocationManagerDelegate {
     {
         let location = locations[0]
         
-        let span:MKCoordinateSpan = MKCoordinateSpanMake(0.01, 0.01)
+        let span:MKCoordinateSpan = MKCoordinateSpanMake(0.001, 0.001)
         let myLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake (location.coordinate.latitude, location.coordinate.longitude)
         let region:MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
         Map1.setRegion(region, animated: true)
@@ -49,6 +49,7 @@ class mapViewController: UIViewController , CLLocationManagerDelegate {
         
         
     }
+   
     
     
     override func viewDidLoad() {

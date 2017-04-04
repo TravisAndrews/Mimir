@@ -7,10 +7,30 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
+
+
+//Map
+weak var Map: MKMapView!
+
+let manager = CLLocationManager()
+
+func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
+{
+    let location = locations[0]
+    
+    let span:MKCoordinateSpan = MKCoordinateSpanMake(0.01, 0.01)
+    let myLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake (location.coordinate.latitude, location.coordinate.longitude)
+    let region:MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
+    Map.setRegion(region, animated: true)
+}
+    
+
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+   
+        override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -22,4 +42,3 @@ class ViewController: UIViewController {
 
 
 }
-

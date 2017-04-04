@@ -1,6 +1,6 @@
 //
 //  map2ViewController.swift
-//  Mimir(nav
+//  Mimir
 //
 //  Created by Travis J Andrews on 3/2/17.
 //  Copyright © 2017 IT North. All rights reserved.
@@ -23,14 +23,14 @@ class map2ViewController: UIViewController , CLLocationManagerDelegate {
     {
         let location2 = locations[0]
         
-        let span2:MKCoordinateSpan = MKCoordinateSpanMake(0.01, 0.01)
+        let span2:MKCoordinateSpan = MKCoordinateSpanMake(0.0000001, 0.0000001)
         let myLocation2:CLLocationCoordinate2D = CLLocationCoordinate2DMake (location2.coordinate.latitude, location2.coordinate.longitude)
         let region2:MKCoordinateRegion = MKCoordinateRegionMake(myLocation2, span2)
         Map2.setRegion(region2, animated: true)
         
         self.Map2.showsUserLocation = true
         
-        let pin3:CLLocationCoordinate2D = CLLocationCoordinate2DMake(41.337560, -95.960956)
+        let pin3:CLLocationCoordinate2D = CLLocationCoordinate2DMake(41.2985, -95.9679)
         let annotation3 = MKPointAnnotation()
         
         annotation3.coordinate = pin3
@@ -38,7 +38,7 @@ class map2ViewController: UIViewController , CLLocationManagerDelegate {
         annotation3.subtitle = "Constructed in 1856, is the oldest building Omaha."
         Map2.addAnnotation(annotation3)
         
-        let pin4:CLLocationCoordinate2D = CLLocationCoordinate2DMake(41.338560, -95.960956)
+        let pin4:CLLocationCoordinate2D = CLLocationCoordinate2DMake(41.2985, -95.96791)
         let annotation4 = MKPointAnnotation()
         
         annotation4.coordinate = pin4
